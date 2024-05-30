@@ -38,7 +38,7 @@ config = dict(
     checkpoint_interval=100, # Checkpoint Interval
     use_wandb=True,
     wandb=dict(
-        entity="theairlab",
+        entity="yhu57782",
         project="SplaTAM",
         group=group_name,
         name=run_name,
@@ -46,7 +46,7 @@ config = dict(
         eval_save_qual=True,
     ),
     data=dict(
-        basedir="./data/Replica",
+        basedir="../../../data1/yhu57782/splatmap/data/Replica",
         gradslam_data_cfg="./configs/data/replica.yaml",
         sequence=scene_name,
         desired_image_height=680,
